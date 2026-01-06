@@ -13,11 +13,11 @@ export const metadata = {
 
   description: "My name is IvanderJS, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
 
-  author: 'Ivander Shafelbilyunazra',
+  author: 'Ivander Josh Santoso',
   siteUrl: 'https://www.IvanderJS.my.id',
   applicationName: 'IvanderJS',
 
-  keywords: ['IvanderJS', 'Ivander', 'Ivander josh', 'josh', 'Ivander shafelbilyunazra', 'Ivander josh bilyunazra', 'bloodfallen', 'Ivander porto', 'Ivander um'],
+  keywords: ['IvanderJS', 'Ivander', 'Ivander josh', 'josh', 'Ivander Josh Santoso', 'Ivander josh bilyunazra', 'bloodfallen', 'Ivander porto', 'Ivander um'],
 
   openGraph: {
     type: 'website',

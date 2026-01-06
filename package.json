@@ -1,12 +1,12 @@
 {
   "name": "Ivander-portfolio-website",
   "author": {
-    "name": "Ivander Shafelbilyunazra",
+    "name": "Ivander Josh Santoso",
     "email": "Ivander.shafel04@gmail.com",
     "url": "https://IvanderJS.my.id"
   },
   "license": "GPL-3.0",
-  "copyright": "Copyright (C) 2025 Ivander Shafelbilyunazra",
+  "copyright": "Copyright (C) 2025 Ivander Josh Santoso",
   "version": "1.0.0",
   "private": true,
   "scripts": {

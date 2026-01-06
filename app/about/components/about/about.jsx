@@ -93,9 +93,9 @@ export default function About() {
             type: 'spring',
           }}
         >
-          <h2 className="text-2xl font-bold tracking-wider mb-3">Ivander Shafelbilyunazra</h2>
+          <h2 className="text-2xl font-bold tracking-wider mb-3">Ivander Josh Santoso</h2>
           <p className="text-gray-600 text-justify title text-lg">
-            Hey there, I&rsquo;m Ivander Shafelbilyunazra, a<span className="text-black font-medium"> passionate Web Developer</span> with a growing expertise in
+            Hey there, I&rsquo;m Ivander Josh Santoso, a<span className="text-black font-medium"> passionate Web Developer</span> with a growing expertise in
             <span className="text-black font-medium"> Artificial Intelligence.</span> Hailing from Pasuruan, East Java, Indonesia, I&rsquo;m currently pursuing my degree in <span className="text-black font-medium">Computer Science</span> at{' '}
             <span className="text-black font-medium">Universitas Negeri Malang.</span> My work bridges modern web technologies and intelligent systems—from building responsive, scalable websites to exploring generative AI and LLM-based
             solutions. Beyond development, I stay curious about design and emerging technologies. In today&rsquo;s ever-changing digital landscape, I believe being a<span className="text-black font-medium"> lifelong learner</span> is
