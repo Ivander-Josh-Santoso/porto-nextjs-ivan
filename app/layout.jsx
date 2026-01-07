@@ -17,7 +17,7 @@ export const metadata = {
   siteUrl: 'https://www.IvanderJS.my.id',
   applicationName: 'IvanderJS',
 
-  keywords: ['IvanderJS', 'Ivander', 'Ivander josh', 'josh', 'Ivander Josh Santoso', 'Ivander josh bilyunazra', 'bloodfallen', 'Ivander porto', 'Ivander um'],
+  keywords: ['IvanderJS', 'Ivander', 'Ivander josh', 'josh', 'Ivander Josh Santoso', 'Ivander josh Josh Santoso', 'bloodfallen', 'Ivander porto', 'Ivander um'],
 
   openGraph: {
     type: 'website',

@@ -1,4 +1,4 @@
-// Copyright (C) 2025 Ivander Bilyunazra
+// Copyright (C) 2025 Ivander Josh Santoso
 // This file is part of IvanderJS-porto-2-nextJs.
 // Licensed under the GNU GPL v3.0. See LICENSE for details.
 
@@ -304,12 +304,12 @@ const MyPage = () => {
                       type: 'spring',
                     }}
                   >
-                    <a href="mailto:Ivander.shafel04@gmail.com?subject=Hello&body=Hello IvanderJS,">Ivander.shafel04@gmail.com</a>
+                    <a href="mailto:ivander.josh.santoso.3@gmail.com?subject=Hello&body=Hello IvanderJS,">ivander.josh.santoso.3@gmail.com</a>
                   </motion.p>
                   {/* icons */}
                   <div className="flex justify-center items-center space-x-4">
                     <motion.a
-                      href="mailto:Ivander.shafel04@gmail.com?subject=Hello&body=Hello IvanderJS,"
+                      href="mailto:ivander.josh.santoso.3@gmail.com?subject=Hello&body=Hello IvanderJS,"
                       className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
                       initial={{ y: 40, opacity: 0 }}
                       whileInView={{ y: 0, opacity: 1 }}

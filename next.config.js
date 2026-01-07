@@ -4,6 +4,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 module.exports = withBundleAnalyzer({
 	// your Next.js configuration
 	images: {
+		domains: ["i.scdn.co", "mosaic.scdn.co", "image-cdn-ak.spotifycdn.com"],
 		remotePatterns: [
 			{
 				protocol: "https",
