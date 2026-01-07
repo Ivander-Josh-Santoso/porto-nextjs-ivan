@@ -165,10 +165,10 @@ export default function Education() {
 						initial={{ opacity: 0, x: -50 }}
 						whileInView={{ opacity: 1, x: 0 }}
 						transition={{ duration: 0.8, delay: 0.2 }}>
-						<div className="font-medium text-lg mb-4">2022 - Present</div>
+						<div className="font-medium text-lg mb-4">2021 - 2025</div>
 						<div>
 							<h2 className="font-semibold text-xl">
-								Universitas Negeri Malang
+								Universitas Harkat Negri
 							</h2>
 							<h3 className="text-md font-normal mb-3">
 								S1 Teknik Informatika | Computer Science

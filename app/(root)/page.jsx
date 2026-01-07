@@ -322,7 +322,7 @@ const MyPage = () => {
                     </motion.a>
 
                     <motion.a
-                      href="https://github.com/IvanderJS"
+                      href="https://github.com/Ivander-Josh-Santoso"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -336,7 +336,7 @@ const MyPage = () => {
                       <FontAwesomeIcon icon={faGithub} className="text-3xl" />
                     </motion.a>
                     <motion.a
-                      href="https://www.instagram.com/IvanderJS_/"
+                      href="https://www.instagram.com/immanuel_ivander_/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
