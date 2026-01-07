@@ -350,7 +350,7 @@ const MyPage = () => {
                       <FontAwesomeIcon icon={faInstagram} className="text-3xl" />
                     </motion.a>
                     <motion.a
-                      href="https://www.linkedin.com/in/Ivander-josh-8a081a254/"
+                      href="https://www.linkedin.com/in/ivander-josh-santoso/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -364,7 +364,7 @@ const MyPage = () => {
                       <FontAwesomeIcon icon={faLinkedin} className="text-3xl" />
                     </motion.a>
                     <motion.a
-                      href="https://discordapp.com/users/bloody#6118"
+                      href="https://discordapp.com/users/F-09 - Ivander Josh Santoso"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"

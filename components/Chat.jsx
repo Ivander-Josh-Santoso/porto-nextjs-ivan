@@ -3,10 +3,18 @@ import { useEffect } from "react";
 
 export default function Chat() {
   useEffect(() => {
-    // Cegah inject dua kali (sering terjadi saat hot reload)
+    // Jangan inject 2x
     if (document.getElementById("tawkto-script")) return;
 
-    // Optional: supaya sesuai dengan script asli Tawk
+    // Filter error boolean dari Tawk.to agar Next dev overlay tidak muncul
+    const originalConsoleError = console.error;
+    console.error = (...args) => {
+      // Jika ada 'true' sebagai error dan stack mengarah ke embed.tawk.to, drop saja
+      const hasTrue = args.length === 1 && args[0] === true;
+      if (hasTrue) return;
+      originalConsoleError(...args);
+    };
+
     window.Tawk_API = window.Tawk_API || {};
     window.Tawk_LoadStart = new Date();
 
@@ -17,16 +25,13 @@ export default function Chat() {
     s1.charset = "UTF-8";
     s1.setAttribute("crossorigin", "*");
 
-    // Sama seperti Tawk: insert sebelum script pertama yang ada
     const s0 = document.getElementsByTagName("script")[0];
-    if (s0?.parentNode) {
-      s0.parentNode.insertBefore(s1, s0);
-    } else {
-      document.body.appendChild(s1);
-    }
+    if (s0?.parentNode) s0.parentNode.insertBefore(s1, s0);
+    else document.body.appendChild(s1);
 
     return () => {
       s1.remove();
+      console.error = originalConsoleError; // restore
     };
   }, []);
 
